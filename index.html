@@ -8,20 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main w-full h-screen bg-zinc-100 flex justify-center items-center">
-       <div class="center flex justify-center items-center relative w-full h-full">
-            <div class="img-container w-10/12 h-5/6 absolute overflow-hidden ">
-                <img id="img1" class="h-full  object-cover" src="https://images.unsplash.com/photo-1726565306060-a458582f7010?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-            <div class="img-container  w-10/12 h-5/6 absolute overflow-hidden">
-                <img id="img2" class="h-full  object-cover" src="https://plus.unsplash.com/premium_photo-1726841974919-b287bcf90acd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0Nnx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-            <div class="img-container  w-10/12 h-5/6 absolute overflow-hidden">
-                <img id="img3" class="h-full  object-cover" src="https://plus.unsplash.com/premium_photo-1723507306975-36dfe1666df3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2N3x8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
+    <div class="main w-full h-screen bg-zinc-100 flex justify-center items-center overflow-x-hidden">
+       <div class="center flex top-16 left-32 relative w-full h-full">
+
+        <div class="text-container w-[400px] h-[80px] overflow-hidden relative top-[70%] left-[-6%] z-10">
+            <h1 class="text-7xl font-bold absolute top-[100px]">AdultHood</h1>
+            <h1 class="text-7xl font-bold absolute top-[100px]">Processed</h1>
+            <h1 class="text-7xl font-bold absolute top-[100px]">ChildHood</h1>
+        </div>
+
+        <div id="img1" class="img-container  h-5/6 absolute overflow-hidden ">
+            <img class="h-full w-full  object-cover" src="https://images.unsplash.com/photo-1726565306060-a458582f7010?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <div id="img2" class="img-container  h-5/6 absolute overflow-hidden">
+            <img  class="h-full w-full  object-cover" src="https://images.unsplash.com/photo-1726715245558-69afa5ded798?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTN8fHxlbnwwfHx8fHw%3D" alt="">
+        </div>
+        <div id="img3" class="img-container  h-5/6 absolute overflow-hidden">
+            <img  class="h-full w-full  object-cover" src="https://plus.unsplash.com/premium_photo-1723507306975-36dfe1666df3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2N3x8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
        </div>
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
